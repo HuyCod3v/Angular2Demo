@@ -6,6 +6,7 @@ require('@angular/core');
 require('@angular/common');
 require('@angular/http');
 require('@angular/router');
+require('@angular/forms');
 // RxJS
 require('rxjs');
 // Other vendors for example jQuery, Lodash or Bootstrap

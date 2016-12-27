@@ -43,6 +43,7 @@
     "canonical-path": "0.0.2",
     "concurrently": "^3.1.0",
     "css-loader": "^0.23.1",
+    "es6-promise-loader": "^1.0.2",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "html-loader": "^0.4.3",

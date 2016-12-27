@@ -6,7 +6,7 @@ import { EagerComponent } from './eager.component';
 const routes: Routes = [
   { path: 'eager', component: EagerComponent },
   { path: '', redirectTo: 'eager', pathMatch: 'full' },
-  { path: 'lazy', loadChildren: 'app/lazy/lazy.module#LazyModule' }
+  { path: 'lazy', loadChildren: () => require('es6-promise!./lazy/lazy.module')('LazyModule') }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes);
